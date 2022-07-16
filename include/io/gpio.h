@@ -1,7 +1,7 @@
 #ifndef GPIO_H
 #define GPIO_H
 
-#include <stm32f4/stm32f4xx.h>
+#include "../../arch/stm32f4/include/stm32f4xx.h"
 
 #include <errno.h>
 #include <stddef.h>

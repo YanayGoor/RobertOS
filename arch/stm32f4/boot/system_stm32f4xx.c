@@ -114,7 +114,7 @@
   * @{
   */
 
-#include <stm32f4/stm32f4xx.h>
+#include "../include/stm32f4xx.h"
 
 /**
   * @}

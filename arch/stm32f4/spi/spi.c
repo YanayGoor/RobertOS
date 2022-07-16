@@ -1,7 +1,8 @@
-#include <stm32f4/stm32f4xx.h>
+#include "io/spi.h"
 
-#include <io/gpio.h>
-#include <io/spi.h>
+#include "../include/stm32f4xx.h"
+#include "io/gpio.h"
+
 #include <stdint.h>
 
 static void enable_module_clock(const struct spi_module *module) {

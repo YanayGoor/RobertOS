@@ -1,4 +1,4 @@
-#include <stm32f4/stm32f4xx.h>
+#include "../arch/stm32f4/include/stm32f4xx.h"
 
 #include <kernel/future.h>
 #include <kernel/sched.h>
